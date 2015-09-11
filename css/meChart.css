@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	text-align: center;
+}
+#bar,
+#pie,
+#line,
+#curve {
+	margin: 20px auto;
+	background-color: ghostwhite;
+	padding: 20px;
+}
+#div {
+	width: 250px;
+	height: 250px;
+	background-color: aliceblue;
+	transition: cubic-bezier(.25, .1, .51, .6);
+	/*绘制不出来*/
+}
